@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Stylish', sans-serif;
+}
+html{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: -webkit-linear-gradient(left, #454cb2, #d54452);
+}
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 106px;
+}
+.tableFixHead thead th {
+    position: sticky;
+    top: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    padding: 8px 16px;
+    border: 3px solid black;
+}
+th {
+    background: #1c7125;
+    background-color: rgb(169, 223, 239);
+    color: rgb(0, 0, 0);
+}
+#logout{
+    float: left;
+}

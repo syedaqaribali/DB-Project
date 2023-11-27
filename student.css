@@ -1,0 +1,19 @@
+.btn-info{
+    border-radius: 10pc;
+    border-color:rgb(78, 21, 27);
+    float: right;
+    margin-right: 10pc;
+    margin-top: -4pc;
+
+}
+
+.btn-success{
+    border-radius: 1pc;
+    border-color:rgb(78, 21, 27);
+    float: left;
+    margin-right: 4pc;
+    margin-left: 8pc;
+    margin-top: -4pc;
+
+}
+
